@@ -24,7 +24,9 @@ Here's a walkthrough of implemented user stories:
 
 ![ImageDemo](https://media.giphy.com/media/2uxXL7vnrMzqFEJwYL/giphy.gif)
 
-![ImageDemo](https://media.giphy.com/media/OjXSq7uresaEfrag0V/giphy.gif)
+
+
+![ImageDemo](https://media.giphy.com/media/2uxXL7vnrMzqFEJwYL/giphy.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
