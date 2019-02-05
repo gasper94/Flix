@@ -22,7 +22,7 @@ Development process:
 ### App Walkthough GIF
 Here's a walkthrough of implemented user stories:
 
-![Imgur Image](https://gph.is/2UGPMVT.gif)
+![Imgur Image](https://gph.is/2UGPMVT)
 
 
 
