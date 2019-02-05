@@ -22,7 +22,9 @@ Development process:
 ### App Walkthough GIF
 Here's a walkthrough of implemented user stories:
 
-![Alt Text](https://media.giphy.com/media/g4XjSmxeoILqALz5vp/giphy.gif)
+![ImageDemo1](https://media.giphy.com/media/g4XjSmxeoILqALz5vp/giphy.gif)
+
+![ImageDemo](https://media.giphy.com/media/OjXSq7uresaEfrag0V/giphy.gif)
 
 ### Notes
 - Hardest part was understanding how to connect to the API
