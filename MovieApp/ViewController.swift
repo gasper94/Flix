@@ -16,9 +16,6 @@ UITableViewDelegate{
     
     @IBOutlet weak var tableView: UITableView!
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -55,12 +52,24 @@ UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
         
+        // Reusable custome cell - MovieCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCells") as! MovieCell
+        
+        // movies
         let movie = movies[indexPath.row]
+        
+        // Movie Title
         let title = movie["title"] as! String
         
-        cell.textLabel?.text = title
+        // Movie Sipnosis
+        let synopsis = movie["overview"] as! String
+        
+        // Title Text Label
+        cell.titleLabel.text = title
+        
+        // Synopsis Text Label
+        cell.synopsis.text = synopsis
         
         return cell
     }
