@@ -22,11 +22,12 @@ Development process:
 ### App Walkthough GIF
 Here's a walkthrough of implemented user stories:
 
-![ImageDemo](https://media.giphy.com/media/OjXSq7uresaEfrag0V/giphy.gif)
+
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![ImageDemo](https://media.giphy.com/media/OjXSq7uresaEfrag0V/giphy.gif)
 
+![ImageDemo](https://media.giphy.com/media/OjXSq7uresaEfrag0V/giphy.gif)
 ### Notes
 Describe any challenges encountered while building the app.
