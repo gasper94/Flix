@@ -24,7 +24,7 @@ Here's a walkthrough of implemented user stories:
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/B2l0EyaC6Mn1VhTG0t/giphy.gif" width="40" height="40" />
 
 ![hey](https://media.giphy.com/media/B2l0EyaC6Mn1VhTG0t/giphy.gif)
 
