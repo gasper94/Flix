@@ -22,9 +22,7 @@ Development process:
 ### App Walkthough GIF
 Here's a walkthrough of implemented user stories:
 
-![ImageDemo1](https://media.giphy.com/media/g4XjSmxeoILqALz5vp/giphy.gif)
-
-![ImageDemo](https://media.giphy.com/media/OjXSq7uresaEfrag0V/giphy.gif)
+<img src= "http://g.recordit.co/f37oAtIGNM.gif" width=250><br>
 
 ### Notes
 - Hardest part was understanding how to connect to the API
