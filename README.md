@@ -22,11 +22,7 @@ Development process:
 ### App Walkthough GIF
 Here's a walkthrough of implemented user stories:
 
-![ImageDemo](https://media.giphy.com/media/2uxXL7vnrMzqFEJwYL/giphy.gif)
-
-
-
-![ImageDemo](https://media.giphy.com/media/5b5wAvE88IZtFnbYmR/giphy.gif)
+![Imgur Image](http://i.imgur.com/zTONrOD.jpg)
 
 ### Notes
 Describe any challenges encountered while building the app.
