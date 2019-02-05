@@ -9,6 +9,7 @@ target 'MovieApp' do
   # Pods for MyApp
   # This pulls in the latest version of Alamofire >= 4.4 but less than 5.0.
   pod 'Alamofire', '~> 4.4'
+  pod 'AlamofireImage', '~> 3.5'
 
   target 'MovieAppTests' do
     inherit! :search_paths
