@@ -20,9 +20,9 @@ Development process:
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
+Here's a walkthrough of implemented user stories:
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src='https://imgur.com/xlQ78v4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Notes
 Describe any challenges encountered while building the app.
