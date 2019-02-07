@@ -26,3 +26,4 @@ Here's a walkthrough of implemented user stories:
 
 ### Notes
 - Hardest part was understanding how to connect to the API
+- Also creating constrains
