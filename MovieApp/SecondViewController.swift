@@ -1,36 +1,20 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  MovieApp
 //
-//  Created by Ulises Martinez on 2/4/19.
+//  Created by Ulises Martinez on 2/6/19.
 //  Copyright © 2019 Ulises Martinez. All rights reserved.
 //
 
 import UIKit
 import AlamofireImage
 
-class ViewController: UIViewController, UITableViewDataSource,
+class SecondViewController: UIViewController, UITableViewDataSource,
 UITableViewDelegate{
-    
-    // Dictionary to hold ..
+
     var movies = [[String: Any]]()
     
     @IBOutlet weak var tableView: UITableView!
-
-    @IBAction func view(_ sender: Any) {
-        print("hi")
-    }
-    
-    
-    
-    /*
-    @IBAction func viewButton(_ sender: Any) {
-        
-        print("hi")
-        
-        //performSegue(withIdentifier: "viewSegue", sender: nil)
-    }*/
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,4 +82,3 @@ UITableViewDelegate{
         return cell
     }
 }
-
