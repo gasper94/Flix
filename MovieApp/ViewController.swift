@@ -97,5 +97,29 @@ UITableViewDelegate{
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //print("hello")
+        
+        // Find the Selected Movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        
+        // Pass the data related to the selected movie.
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        
+        detailsViewController.movie = movie
+        
+        
+        // deSelect row
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    
+    
+    
+    
 }
 
