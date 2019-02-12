@@ -12,6 +12,7 @@
 		9C54E70C22126F2D008BD6C2 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54E70B22126F2D008BD6C2 /* MovieDetailsViewController.swift */; };
 		9C54E70E22127CC2008BD6C2 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54E70D22127CC2008BD6C2 /* MovieGridViewController.swift */; };
 		9CEED46522096B3D00ACC876 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEED46422096B3D00ACC876 /* MovieCell.swift */; };
+		9CF38020221298C5007668FA /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3801F221298C5007668FA /* MovieGridCell.swift */; };
 		9CFD828A2209376900E5C0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD82892209376900E5C0F7 /* AppDelegate.swift */; };
 		9CFD828C2209376900E5C0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD828B2209376900E5C0F7 /* ViewController.swift */; };
 		9CFD828F2209376900E5C0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD828D2209376900E5C0F7 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		9C54E70B22126F2D008BD6C2 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		9C54E70D22127CC2008BD6C2 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		9CEED46422096B3D00ACC876 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		9CF3801F221298C5007668FA /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		9CFD82862209376900E5C0F7 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFD82892209376900E5C0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFD828B2209376900E5C0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				9CFD82902209376900E5C0F7 /* MovieApp.xcdatamodeld */,
 				9C54E70B22126F2D008BD6C2 /* MovieDetailsViewController.swift */,
 				9C54E70D22127CC2008BD6C2 /* MovieGridViewController.swift */,
+				9CF3801F221298C5007668FA /* MovieGridCell.swift */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				9CEED46522096B3D00ACC876 /* MovieCell.swift in Sources */,
 				9CFD82922209376900E5C0F7 /* MovieApp.xcdatamodeld in Sources */,
 				9C54E70E22127CC2008BD6C2 /* MovieGridViewController.swift in Sources */,
+				9CF38020221298C5007668FA /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
