@@ -60,18 +60,18 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = CollectionView.dequeueReusableCell(withReuseIdentifier: "MovieGridCell", for: indexPath) as! MovieGridCell
         
         let movie = movies[indexPath.item]
-        
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath )
         
-        
         cell.posterView.af_setImage(withURL: posterUrl!)
-        
+//        posterPath.layer.borderWidth = 1.5
+//        posterPath.layer.borderColor = UIColor.white.cgColor
         
         return cell
     }
