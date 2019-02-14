@@ -14,20 +14,17 @@ class MovieDetailsViewController: UIViewController {
 
     var movie: [String:Any]!
     
+    
     @IBOutlet weak var backDropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var tittleLabel: UILabel!
     @IBOutlet weak var sypnosisView: UILabel!
-    
-    
-    
-    
+    @IBOutlet weak var dateLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        //print(movie["title"])
+        
+        dateLabel.text = movie["release_date"] as! String
         
         tittleLabel.text = movie["title"] as! String
         tittleLabel.sizeToFit()
@@ -35,12 +32,17 @@ class MovieDetailsViewController: UIViewController {
         sypnosisView.text = movie["overview"] as! String
         sypnosisView.sizeToFit()
 
+        //var name: String = movie["release_date"] as! String
+        
+        //print(name)
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath )
         
         posterView.af_setImage(withURL: posterUrl!)
+        posterView.layer.borderWidth = 1.5
+        posterView.layer.borderColor = UIColor.white.cgColor
         
         
         // back drop view
@@ -48,6 +50,8 @@ class MovieDetailsViewController: UIViewController {
         let backDropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backDropPath)
         
         backDropView.af_setImage(withURL: backDropUrl!)
+//        backDropView.layer.borderWidth = 1.5
+//        backDropView.layer.borderColor = UIColor.white.cgColor
         
     }
     
